@@ -1,11 +1,26 @@
 {
-  "posts": [
+  "userinfo": [
     {
-      "id": 1,
-      "title": "hello"
+      "status_code": "200",
+      "reason": "success",
+      "result":{
+        "account_status": 1,
+        "account_type": 1,
+        "web_remaining_times": "123",
+        "api_status": 1,
+        "api_type": 1,
+        "api_remaining_times": "123"
+      }
     }
   ],
-  "profile": {
+  "query": {
     "name": "typicode"
   }
 }
+
+
+// https://my-json-server.typicode.com/dockeer/fake-REST-API/userinfo
+
+
+
+Remaining limit
